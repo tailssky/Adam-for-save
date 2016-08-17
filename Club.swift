@@ -25,9 +25,7 @@ class Club {
         self.clubImage = clubImage
     }
     
-//    class func getClubFromSeverUseClubName (clubName: String) -> Club? {
-//        
-//    }
+
     
     
     class func creatNewClubToSever(newClub: Club) -> Bool {
