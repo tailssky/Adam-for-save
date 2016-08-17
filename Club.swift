@@ -18,7 +18,12 @@ class Club {
     var tag = 0
     var clubID: String!
     
- 
+    init(clubCeater avuser: AVUser, clubName: String, clubImage: UIImage) {
+        name = clubName
+        creater = avuser
+        joiners = [AVUser]()
+        self.clubImage = clubImage
+    }
     
 //    class func getClubFromSeverUseClubName (clubName: String) -> Club? {
 //        
