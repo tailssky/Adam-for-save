@@ -46,15 +46,11 @@ class Club {
         newAVClub.setObject(avfile, forKey: "clubImage")
         
        let succeed = newAVClub.save()
-//        WithBlock({succeed, error in
+
             if succeed {
                 print("new club saved")
                 
-//                let user = User(avuser: avCreater)
-//                if let user = user {
-////                avCreater.fetch()
-////                    avCreater.incrementKey("clubCreatedNum", byAmount: 1)
-//                    avCreater.setObject(user.clubJoinedNum + 1, forKey: "clubCreatedNum")
+
 
                     let query = AVQuery(className: "_User")
                     
@@ -74,26 +70,7 @@ class Club {
                             }})
                         }
                         })
-//                    save clubsCreated
-//                    query.includeKey("clubsCreated")
-//                    var objects = query.findObjects()
-//                    if var objects = objects {
-//                        objects.append(newAVClub)
-//                    } else {
-//                        objects = [newAVClub]
-//                    }
-//                    
-//                    avCreater.addObject(newAVClub, forKey: "clubsCreated")
-//                    
-//                    //save clubsJoined
-////                    query.includeKey("clubsJoined")
-////                    objects = query.findObjects()
-////                    if var objects = objects {
-////                        objects.append(newAVClub)
-////                    } else {
-////                        objects = [newAVClub]
-////                    }
-//                    avCreater.addObject(newAVClub, forKey: "clubsJoined")
+
                     
                     
                     
