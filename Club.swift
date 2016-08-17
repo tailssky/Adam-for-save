@@ -20,7 +20,9 @@ class Club {
     
  
     
-
+//    class func getClubFromSeverUseClubName (clubName: String) -> Club? {
+//        
+//    }
     
     
     class func creatNewClubToSever(newClub: Club) -> Bool {
